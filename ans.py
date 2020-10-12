@@ -20,7 +20,7 @@ def makeAns(a, b, opp):
         2: a * b,
         3: a * b,
         }[opp]
-    return result
+    return int(round(result,0))
 
 
 class question:
